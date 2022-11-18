@@ -1,0 +1,76 @@
+body{
+    background: url(background.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+  *{
+            margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+       .dropdown {
+           display: flex;
+           align-content: center;
+           padding: 20px;
+           list-style-type: none;
+       }
+       header {
+           padding: 20px;
+           background-color: black;
+           opacity: 50%;
+           color: white;
+       }
+       a {
+           display: block;
+           width: 150px;
+           background-color: transparent;
+           color: white;
+           text-decoration: none;
+           align-content: center;
+       }
+       nav {
+               padding: 2px;
+               text-align: center;
+               background-color: transparent;
+           }
+       a:hover{
+           background-color: black;
+       }
+       .Aboutus {
+           list-style-type: none;
+           display: none;
+       }
+       .dropdown li:nth-child(2):hover .Aboutus{
+           display: block;
+           box-shadow: 10px;
+       }
+       h1{
+        text-align: center;
+        text-decoration: underline;
+        padding: 20px;
+        font-size: 60px;
+        
+       }
+       p{
+        text-align: center;
+        padding: 100px;
+        font-size: x-large;
+       }
+       .button{
+        height: 45px;
+        margin: 35px;
+       }
+       .button input{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        cursor: pointer;
+        background-color: blueviolet;
+       }
